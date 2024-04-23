@@ -11,6 +11,7 @@ import { Component, OnInit } from '@angular/core';
 import { LoginComponent } from './Admin/login/login.component';
 import { SidenavComponent } from './Admin/sidenav/sidenav.component';
 import { RegisterComponent } from './register/register.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @Component({
@@ -27,7 +28,8 @@ import { RegisterComponent } from './register/register.component';
     CommonModule,
     LoginComponent,
     SidenavComponent,
-    RegisterComponent
+    RegisterComponent,
+    HttpClientModule
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

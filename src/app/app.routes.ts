@@ -18,7 +18,7 @@ export const routes: Routes = [
     component: RegisterComponent,
   },
   {
-    path: 'login', // Corrected path for login route
+    path: 'login',
     component: LoginComponent,
   },
   {

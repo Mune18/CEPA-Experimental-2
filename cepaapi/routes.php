@@ -15,8 +15,8 @@
  * - POST request for login: API_URL/login (with JSON data in the request body)
  */
 
-require_once "./database.php"; // Include the database connection logic
-require_once "./login.php";    // Include the login functionality
+require_once "./config/database.php"; // Include the database connection logic
+require_once "./Login/login.php";    // Include the login functionality
 
 // Initialize DatabaseConnection object
 $con = new DatabaseConnection();
